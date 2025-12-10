@@ -1,0 +1,77 @@
+Here's a comprehensive and structured **prompt** you can use to guide your development team or AI assistant (like me) to implement and enhance your application based on your requirements:
+
+---
+
+### 🔧 **Prompt for UI/UX and Functional Enhancements**
+
+> **Objective:** Enhance the web application with improved navigation, persistent state handling, chatbot accessibility, and advanced UI for Upload PDF and Tables sections. Also, fix backend issues and refine chatbot behavior.
+
+---
+
+### ✅ **Sidebar Enhancements**
+- Add a **"Home"** option at the top of the sidebar.
+- On clicking **Home**, redirect to the **landing page** (`/home` or `/landing` route).
+- Redesign the sidebar with a **modern, sleek look** using:
+  - Icons with labels
+  - Hover effects
+  - Section dividers
+  - Optional collapsible behavior
+
+---
+
+### 💬 **Chatbot Improvements**
+- Move the **chatbot icon to the bottom-right corner** of the screen.
+- Make it **floating and sticky** so it remains visible and accessible while scrolling.
+- Ensure chatbot opens in a **modal or expandable drawer**.
+- Improve chatbot response logic:
+  - Provide **simple, concise, and direct answers**
+  - Avoid long-winded or vague responses
+  - Optionally, add a toggle for "Concise Mode"
+
+---
+
+### 📄 **PDF Upload Fix**
+- Fix the **500 Internal Server Error** during PDF upload:
+  - Check backend logs for stack trace
+  - Validate file size, format, and server-side parsing logic
+  - Ensure proper error handling and user feedback
+
+---
+
+### 📊 **UI Enhancements for Upload PDF & Tables**
+- Redesign **Upload PDF** section:
+  - Use a **card layout** with drag-and-drop support
+  - Show file preview, name, and size
+  - Add animated upload progress bar
+- Redesign **Tables** section:
+  - Use **striped rows, sorting, filtering, and pagination**
+  - Add **export to CSV/Excel** button
+  - Include **column visibility toggles**
+
+---
+
+### 🔁 **Persistent State for Analysis**
+- Implement **state preservation** for the selected PDF and its analysis:
+  - Use **React Context**, **Redux**, or **localStorage** to store selected PDF and analysis results
+  - When navigating away and returning, **restore the previous state**
+  - Apply same logic to other sections (e.g., Tables, Summary)
+
+---
+
+### 🧠 **Chatbot Behavior Tuning**
+- Refactor chatbot backend logic to:
+  - Use **intent classification** and **FAQ matching**
+  - Return **short, relevant answers** with optional follow-up suggestions
+  - Avoid generic fallback responses
+
+---
+
+### 🧪 **Testing Checklist**
+- [ ] Sidebar "Home" redirects correctly
+- [ ] Chatbot floats on right and stays visible on scroll
+- [ ] PDF upload works without 500 error
+- [ ] Upload PDF and Tables sections look modern and interactive
+- [ ] Analysis state persists across navigation
+- [ ] Chatbot gives simple, accurate answers
+
+---

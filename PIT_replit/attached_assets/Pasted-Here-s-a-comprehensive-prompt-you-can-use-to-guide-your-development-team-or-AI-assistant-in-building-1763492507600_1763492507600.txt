@@ -1,0 +1,70 @@
+Here's a comprehensive prompt you can use to guide your development team or AI assistant in building and modifying your application to meet all the requirements you've outlined:
+
+---
+
+### 🛠️ **Prompt to Build and Modify Application Features**
+
+**Objective:** Enhance the UI/UX and analytics capabilities of the application with a vibrant, modern interface, structured chatbot support, and advanced data visualizations.
+
+---
+
+### ✅ **Chatbot Integration**
+- Add a **floating chatbot** at the **bottom-right corner** of the screen.
+- Ensure it provides **simple, structured answers** in card or table format.
+- Support contextual queries and feature navigation.
+
+---
+
+### 🎨 **UI/UX Enhancements**
+- Apply a **colorful, vibrant theme** across the app — avoid dull or monochrome palettes.
+- Use **gradient backgrounds**, **animated transitions**, and **hover effects** for interactivity.
+- All **tables and matrices** should:
+  - Have **dark, bold borders**
+  - Use **striped rows**, **hover highlights**, and **rounded corners**
+  - Include **icons or badges** for quick visual cues
+
+---
+
+### 🧭 **Feature Navigation**
+- Implement **floating cards** for feature shortcuts.
+  - Each card should be **color-coded**, **clickable**, and **animated on hover**
+  - Include icons and short labels like “Visit Analysis”, “Item Tracker”, “Annotation Map”
+
+---
+
+### 📊 **Analytics Section Modifications**
+#### Visit Analysis
+- Rename **“Visit Frequency Analysis”** to **“Visit Analysis”**
+- Update **bar chart**:
+  - **Y-axis label**: “Number of Items”
+  - **X-axis label**: “Number of Visits”
+  - Format all visit labels as: `V0`, `V1`, `V1.1`, `V2`, `V2.1`, … `V8(EOT)`
+
+#### Collection Items Analysis
+- Create a **chart or graph** showing:
+  - Each **item name**
+  - **Number of times collected**
+  - **Visit names** where collected
+- Example: “Informed Consent” collected 2 times → V0 (Stabilization), V1 (Screening)
+
+#### Annotation Reference Analysis
+- Display:
+  - **Total annotation count per PDF**
+  - **Location of each annotation** (e.g., page number, section)
+  - **Contextual usage** (e.g., linked to which item or visit)
+
+---
+
+### 📤 **Export Functionality**
+- Ensure **all export options** (PDF, Excel, CSV, JSON) work correctly across:
+  - Tables
+  - Charts
+  - Analytics summaries
+- Include **download buttons** with tooltips and progress indicators
+
+---
+
+### 🧪 **Testing & QA**
+- Validate chatbot responsiveness and formatting
+- Test all visual elements for responsiveness and accessibility
+- Confirm export outputs match displayed data
